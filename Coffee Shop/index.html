@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg mynavbar"><!--expand will make the navbar appear fully in large screens-->
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="my-toggler"><!--this used to make the three lines-->
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="images/coffee.png" alt="coffee" class="d-none d-lg-block" width="70px" height="70px">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#price">Price List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="main1">
+        <h1 id="typingheading" style="white-space: pre-line;"></h1>
+    </div>
+    <button id="backToTop" title="Go to top">↑</button>
+    <h2 id="menu">Our Special Brews</h2>
+    <div class="wrapper">
+        <div class="sectionmain" id="sectionmain">
+            <div class="section1">
+                <img src="images/cappuccino.jpg" alt="coffee" class="image1">
+                <h4>Cappuccino</h4>
+                <p>A perfect balance of espresso, steamed milk, and milk foam.</p>
+                <p>Rs. 550</p>
+            </div>
+            <div class="section1">
+                <img src="images/espresso.webp" alt="coffee" class="image1">
+                <h4>Espresso</h4>
+                <p>Strong and rich — the purest coffee experience in a shot.</p>
+                <p>Rs. 450</p>
+            </div>
+            <div class="section1">
+                <img src="images/flat white.webp" alt="coffee" class="image1">
+                <h4>Flat White</h4>
+                <p>Smooth espresso mixed with silky steamed milk for a creamy finish.</p>
+                <p>Rs. 580</p>
+            </div>
+            <div class="section1">
+                <img src="images/frappe.jpg" alt="coffee" class="image1">
+                <h4>Frappe</h4>
+                <p>Iced, blended coffee treat — refreshing and sweet.</p>
+                <p>Rs. 800</p>
+            </div>
+            <div class="section1">
+                <img src="images/latte.jpg" alt="coffee" class="image1">
+                <h4>Latte</h4>
+                <p>Espresso mellowed with steamed milk and topped with light foam.</p>
+                <p>Rs. 650</p>
+            </div>
+            <div class="section1">
+                <img src="images/americano.jpg" alt="coffee" class="image1">
+                <h4>Americano</h4>
+                <p>Espresso diluted with hot water for a bold but light coffee.</p>
+                <p>Rs. 500</p>
+            </div>
+            <div class="section1">
+                <img src="images/mocha.jpg" alt="coffee" class="image1">
+                <h4>Mocha</h4>
+                <p>A rich blend of espresso, chocolate, and steamed milk.</p>
+                <p>Rs. 600</p>
+            </div>
+        </div>    
+    </div>
+    <div class="containermain4"  id="price">
+        <div class="container6">
+            <img src="images/image10.avif" alt="pic" class="img2" width="350px" height="250px">
+        </div>
+        <div class="container7">
+            <h2 class="heading1">Price List</h2>
+            <table class="table table-dark table-hover custom-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Coffee Type</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Price(LKR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Espresso</td>
+                        <td>Single Shot</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <td>Americano</td>
+                        <td>Regular</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>Regular</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>Café Latte</td>
+                        <td>Regular</td>
+                        <td>580</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>Regular</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>Flat White</td>
+                        <td>Regular</td>
+                        <td>580</td>
+                    </tr>
+                    <tr>
+                        <td>Macchiato</td>
+                        <td>Regular</td>
+                        <td>520</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Coffee</td>
+                        <td>Regular</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>Caramel Latte</td>
+                        <td>Regular</td>
+                        <td>650</td>
+                    </tr>
+                    <tr>
+                        <td>Vanilla Latte</td>
+                        <td>Regular</td>
+                        <td>650</td>
+                    </tr>
+                    <tr>
+                        <td>Hazelnut Mocha</td>
+                        <td>Regular</td>
+                        <td>700</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="containermain2">
+        <div class="container2">
+            <img src="images/coffee.png" alt="logo" width="300px" height="300px" class="imgcofee">
+        </div>
+        <div class="container3">
+            <h2 id="about">About Us</h2><hr><br>
+            <h4>Welcome to ChocoBean Café!</h4>
+            <p class="p2">At ChocoBean Café, every cup tells a story. We are passionate about crafting the perfect coffee experience 
+                from the finest beans to the warmest smiles. Founded with love for community and a deep appreciation 
+                for quality, our cafe offers a cozy space for coffee lovers to connect, create, and unwind. Whether 
+                you're grabbing your morning espresso or spending an afternoon with friends, ChocoBean Café is your home for 
+                authentic, handcrafted coffee moments.</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="containermain1">
+        <div class="container1">
+            <h2>Vision</h2>
+            <p>"To be the heartwarming space where every cup sparks joy, connection, and inspiration — one coffee at a time."</p>
+        </div>
+        <div class="container1">
+            <h2>Mission</h2>
+            <p>"We are committed to crafting the finest coffee experiences by using premium beans, fostering a welcoming 
+                community, and creating a cozy environment where everyone feels at home."
+            </p>
+        </div>
+    </div>
+    <h2 id="contact">Contact Us....</h2>
+    <div class="containermain3">
+        <div class="container4">
+            <h4>Get in Touch...</h4>
+            <form>
+                <input type="text" name="name" id="name" class="element" placeholder="Name" required>
+                <input type="email" name="email" id="email" class="element" placeholder="Email" required>
+                <input type="tel" name="mobile" id="mobile" class="element" placeholder="Mobile No" required>
+                <textarea class="element" rows="5" placeholder="Message" required></textarea>
+                <input type="Submit" class="btn btn-secondary" value="Send Message">
+            </form>
+        </div>
+        <div class="container5">
+            <h4>Our Contact Details</h4><br>
+            <p class="p3">📍 : No.426/A, Brew Street, Bean Town, Colombo, Sri Lanka</p>
+            <p class="p3">📞 : +94 77 123 4567</p>
+            <p class="p3">✉️ : <a href="mailto:contact@coffeecorner.lk">contact@coffeecorner.lk</a></p>
+            <p class="p3">🗺️ : <a href="https://www.google.lk/maps/place/Mahesh+Discus+Aquarium/@6.8282753,79.8621361,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25b24ea7a6b57:0">View on Map</a></p>
+            <p class="p3">⏰ : Monday - Sunday: 8:00 AM - 8:00 PM</p>
+        </div>
+    </div>
+    <footer>
+        <p class="p1">&copy; 2025 ChocoBeanCafe. All Rights Reserved.</p>
+        <div class="image">
+            <img src="images/insta.png" alt="logo" class="imglogo">
+            <img src="images/git.png" alt="logo" class="imglogo">
+            <img src="images/linkedin.png" alt="logo" class="imglogo">
+        </div>
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+        const backToTopBtn = document.getElementById("backToTop");
+      
+        window.onscroll = function () { //This means: Every time the user scrolls, run this function.
+          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) { //1. This checks how far the <body> element is scrolled from the top. 2. This checks how far the <html> element is scrolled from the top.
+            backToTopBtn.style.display = "block";
+          } else {
+            backToTopBtn.style.display = "none";
+          }
+        };
+      
+        // Smooth scroll to top
+        backToTopBtn.addEventListener("click", function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        // function goTop() {
+            // window.scrollTo({ top: 0, behavior: 'smooth' });
+            // } this does the same thing if we add onmouseclick(gotop) to the button
+        
+        const navLinks = document.querySelectorAll('.nav-link');
+        const navbarCollapse = document.getElementById('navbarTogglerDemo01');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
+            });
+        });
+
+        let text="Welcome to \nChocoBean Cafe!";
+        let i = 0;
+
+        function typeeffect(){
+            document.getElementById("typingheading").textContent += text[i];
+
+            i++
+            if(i<text.length){
+                setTimeout(typeeffect,150);
+            }
+        }
+        typeeffect();
+    </script>      
+</body>
+</html>
